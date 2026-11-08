@@ -3,7 +3,7 @@ id: orangehat-hedgedoc
 name: HedgeDoc
 tagline: A secure and flexible markdown solution for teams
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hedgedoc/logo.png
-category: files & productivity
+category: files
 version: "1.12.0"
 port: 3456
 description: >-
@@ -29,19 +29,17 @@ gallery:
   - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hedgedoc/3.jpg
   - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-hedgedoc/4.jpg
 releaseNotes: >-
- Important changes
-⚠️ HedgeDoc 1.12.0 and onwards will require Node 20.17 or later in order to run.
-Since Node 18 security support was stopped over one year ago, we don't maintain backwards-compatability for that anymore.
+  Important changes: HedgeDoc 1.12.0 and onwards will require Node 20.17 or later in order to run.
+  Since Node 18 security support was stopped over one year ago, we don't maintain backwards-compatability for that anymore.
+  Some syntax highlighting languages have been removed and/or changed. You can find more information in the highlight.js docs.
 
-Some syntax highlighting languages have been removed and/or changed. You can find more information in
-the highlight.js docs.
+  Enhancements: Automatically skip the login modal if no form-based login and exactly one external login provider is configured.
 
-Enhancements
-Automatically skip the login modal if no form-based login and exactly one external login provider is configured
-Bugfixes
-All links will be opened in new tabs instead of the same tab as the note. This was changed when the external link warning was implemented and now the old behavior is restored
-Fixed multiple bugs in the realtime connection handling that could lead to data-loss of users with a flaky connection
-dependencies:
+  Bugfixes: All links will be opened in new tabs instead of the same tab as the note. 
+  This was changed when the external link warning was implemented and now the old behavior is restored
+  Fixed multiple bugs in the realtime connection handling that could lead to data-loss of users with a flaky connection
+
+dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
